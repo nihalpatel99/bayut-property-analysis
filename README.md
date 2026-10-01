@@ -27,15 +27,7 @@
 - The rent column is set at roughly **6.5% of price** for every row (range 6.1–7.0%), so gross yields barely vary. The yield formulas below are correct, but comparisons between yields (Q7, Q22, Q25) don't reveal much. This looks like a generated practice dataset.
 - Rows are sorted by community, then by month. Some shortcuts below rely on this, and each one says so.
 
-## Conventions used in this answer key
 
-- The data is an Excel Table named **`Table13`** (select the data and press Ctrl+T). Rename it if you like, but update the formulas to match.
-- From **Q1 onward, `year_month` holds real dates** (the 1st of each month). Many formulas depend on this.
-- Inside the table, `[@column]` means **this row's value** and `[column]` means the **whole column**. Mixing them up causes `#SPILL!`.
-- Formulas are shown on one line, so they paste cleanly. Copying multi-line formulas can bring in invisible characters that cause *"The syntax of this name isn't correct"*.
-- LET variables use descriptive names (`curMonth`, not `d`). Short names can clash with cell references.
-
----
 
 ## Section 1: Cleaning and helper columns
 
